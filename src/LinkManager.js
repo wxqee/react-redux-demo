@@ -13,6 +13,7 @@ class LinkManager extends Component {
       url: this.form.url.value,
     };
 
+    this.form.reset();
     this.props.addLink(link);
   };
 
